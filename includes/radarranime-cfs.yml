@@ -64,6 +64,41 @@ custom_formats:
         score: 10
 
   - trash_ids:
+      # Audio
+      - 496f355514737f7d83bf7aa4d24f8169 # TrueHD Atmos
+      - 2f22d89048b01681dde8afe203bf2e95 # DTS X
+      - 417804f7f2c4308c1f4c5d380d4c4475 # ATMOS (undefined)
+      - 1af239278386be2919e1bcee0bde047e # DD+ ATMOS
+      - 3cafb66171b47f226146a0770576870f # TrueHD
+      - dcf3ec6938fa32445f590a4da84256cd # DTS-HD MA
+      - a570d4a0e56a2874b64e5bfa55202a1b # FLAC
+      - e7c2fcae07cbada050a0af3357491d7b # PCM
+      - 8e109e50e0a0b83a5098b056e13bf6db # DTS-HD HRA
+      - 185f1dd7264c4562b9022d963ac37424 # DD+
+      - f9f847ac70a0af62ea4a08280b859636 # DTS-ES
+      - 1c1a4c5e823891c75bc50380a6866f73 # DTS
+      - 240770601cc226190c367ef59aba7463 # AAC
+      - c2998bd0d90ed5621d8df281e839436e # DD
+      - 6ba9033150e7896bdc9ec4b44f2b230f # MP3
+      - a061e2e700f81932daf888599f8a8273 # Opus
+
+      # HDR Formats
+      - c53085ddbd027d9624b320627748612f # DV HDR10Plus
+      - e23edd2482476e595fb990b12e7c609c # DV HDR10
+      - 58d6a88f13e2db7f5059c41047876f00 # DV
+      - 55d53828b9d81cbe20b02efd00aa0efd # DV HLG
+      - a3e19f8f627608af0211acd02bf89735 # DV SDR
+      - b974a6cd08c1066250f1f177d7aa1225 # HDR10+
+      - dfb86d5941bc9075d6af23b09c2aeecd # HDR10
+      - e61e28db95d22bedcadf030b8f156d96 # HDR
+      - 2a4d9069cc1fe3242ff9bdaebed239bb # HDR (undefined)
+      - 08d6d8834ad9ec87b1dc7ec8148e7a1f # PQ
+      - 9364dd386c9b4a1100dde8264690add7 # HLG
+    quality_profiles:
+      - name: Anime
+        score: 0
+
+  - trash_ids:
       # Unwanted
       - ca864ed93c7b431150cc6748dc34875d # Anime BD Tier 05 (Remuxes)
       - 1ef101b3a82646b40e0cab7fc92cd896 # Anime BD Tier 07 (P2P/Scene)
