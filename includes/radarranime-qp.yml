@@ -1,0 +1,31 @@
+quality_profiles:
+  - name: Anime
+    reset_unmatched_scores:
+      enabled: true
+      except:
+        - Anime BD Tier 02.5 (Custom SeaDex Muxers)
+        - Anime BD Tier 06.5 (Custom FanSubs)
+        - Anime Web Tier 01.5 (Custom Muxers)
+        - Anime Web Tier 06.5 (Custom FanSubs)
+        - Anime Web Tier 03.5 (Custom Official Subs)
+        - Anime Web (Boost SubsPlease)
+        - Anime Web (Boost SubsPlus)
+        - Anime Unwanted Groups
+    upgrade:
+      allowed: true
+      until_quality: Bluray-1080p
+      until_score: 10000
+    min_format_score: 100
+    score_set: anime-radarr
+    quality_sort: top
+    qualities:
+      - name: Bluray-1080p
+      - name: Anime-1080p/720p
+        qualities:
+          - WEBDL-1080p
+          - WEBRip-1080p
+          - HDTV-1080p
+          - WEBDL-720p
+          - WEBRip-720p
+          - HDTV-720p
+          - DVD

@@ -1,0 +1,16 @@
+quality_profiles:
+  - name: Remux
+    reset_unmatched_scores:
+      enabled: true
+    upgrade:
+      allowed: true
+      until_quality: Bluray-2160p Remux
+      until_score: 10000
+    min_format_score: 10
+    quality_sort: top
+    qualities:
+      - name: Bluray-2160p Remux 
+      - name: WEBDL-2160p
+      - name: WEBRip-2160p
+      - name: Bluray-1080p Remux
+

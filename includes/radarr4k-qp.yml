@@ -1,0 +1,17 @@
+quality_profiles:
+  - name: Remux/IMAX
+    reset_unmatched_scores:
+      enabled: true
+    upgrade:
+      allowed: true
+      until_quality: Remux/IMAX Enhanced-2160p
+      until_score: 10000
+    min_format_score: 550
+    score_set: sqp-3
+    quality_sort: top
+    qualities:
+      - name: Remux/IMAX Enhanced-2160p
+        qualities:
+          - Remux-2160p
+          - WEBDL-2160p
+          - WEBRip-2160p

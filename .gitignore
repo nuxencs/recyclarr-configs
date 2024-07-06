@@ -1,0 +1,5 @@
+cache/
+logs/
+repositories/
+docker-compose.yml
+secrets.yml

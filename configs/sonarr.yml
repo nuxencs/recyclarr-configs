@@ -1,0 +1,31 @@
+sonarr:
+  sonarr:
+    base_url: !secret sonarr_url
+    api_key: !secret sonarr_apikey
+
+    include:
+      - template: sonarr-quality-definition-series
+      - config: sonarr-naming.yml
+      - config: sonarr-cfs.yml
+      - config: sonarr-qp.yml
+
+  sonarr4k:
+    base_url: !secret sonarr4k_url
+    api_key: !secret sonarr4k_apikey
+
+    include:
+      - template: sonarr-quality-definition-series
+      - config: sonarr-naming.yml
+      - config: sonarr4k-cfs.yml
+      - config: sonarr4k-qp.yml
+
+  sonarranime:
+    base_url: !secret sonarranime_url
+    api_key: !secret sonarranime_apikey
+
+    include:
+      - template: sonarr-quality-definition-anime
+      - config: sonarr-naming.yml
+      - config: sonarranime-cfs.yml
+      - config: sonarranime-qp.yml
+
