@@ -99,6 +99,9 @@ custom_formats:
       - bb019e1cd00f304f80971c965de064dc # HDR (undefined)
       - 2a7e3be05d3861d6df7171ec74cad727 # PQ
       - 17e889ce13117940092308f48b48b45b # HLG
+
+      # Misc
+      - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
     quality_profiles:
       - name: Anime
         score: 0
