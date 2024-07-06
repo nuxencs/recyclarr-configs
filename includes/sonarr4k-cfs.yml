@@ -43,6 +43,7 @@ custom_formats:
       - e1a997ddb54e3ecbfe06341ad323c458 # Obfuscated
       - 06d66ab109d4d2eddb2794d21526d140 # Retags
       - 1b3994c551cbb92a2c781af061f4ab44 # Scene
+      - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
       - 9b27ab6498ec0f31a3353992e19434ca # DV (WEBDL)
 
       # Streaming Services
@@ -67,6 +68,12 @@ custom_formats:
       - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
     quality_profiles:
       - name: Remux
+
+  - trash_ids:
+      - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
+    quality_profiles:
+      - name: Remux
+        score: 15
 
   - trash_ids:
       # Audio

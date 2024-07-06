@@ -50,6 +50,12 @@ custom_formats:
       - name: WEBDL
 
   - trash_ids:
+      - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
+    quality_profiles:
+      - name: WEBDL
+        score: 15
+
+  - trash_ids:
       # Audio
       - 0d7824bb924701997f874e7ff7d4844a # TrueHD Atmos
       - 9d00418ba386a083fbf4d58235fc37ef # DTS X
