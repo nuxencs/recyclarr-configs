@@ -3,6 +3,8 @@ sonarr:
     base_url: !secret sonarr_url
     api_key: !secret sonarr_apikey
 
+    delete_old_custom_formats: true
+
     include:
       - template: sonarr-quality-definition-series
       - config: sonarr-naming.yml
@@ -13,6 +15,8 @@ sonarr:
     base_url: !secret sonarr4k_url
     api_key: !secret sonarr4k_apikey
 
+    delete_old_custom_formats: true
+
     include:
       - template: sonarr-quality-definition-series
       - config: sonarr-naming.yml
@@ -22,6 +26,8 @@ sonarr:
   sonarranime:
     base_url: !secret sonarranime_url
     api_key: !secret sonarranime_apikey
+
+    delete_old_custom_formats: true
 
     include:
       - template: sonarr-quality-definition-anime
