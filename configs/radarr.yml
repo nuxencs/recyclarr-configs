@@ -3,6 +3,8 @@ radarr:
     base_url: !secret radarr_url
     api_key: !secret radarr_apikey
 
+    delete_old_custom_formats: true
+
     include:
       - template: radarr-quality-definition-movie
       - config: radarr-naming.yml
@@ -13,6 +15,8 @@ radarr:
     base_url: !secret radarr4k_url
     api_key: !secret radarr4k_apikey
 
+    delete_old_custom_formats: true
+
     include:
       - template: radarr-quality-definition-movie
       - config: radarr-naming.yml
@@ -22,6 +26,8 @@ radarr:
   radarranime:
     base_url: !secret radarranime_url
     api_key: !secret radarranime_apikey
+
+    delete_old_custom_formats: true
 
     include:
       - template: radarr-quality-definition-movie
