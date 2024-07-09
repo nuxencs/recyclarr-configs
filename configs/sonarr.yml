@@ -4,6 +4,7 @@ sonarr:
     api_key: !secret sonarr_apikey
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     include:
       - template: sonarr-quality-definition-series
@@ -16,6 +17,7 @@ sonarr:
     api_key: !secret sonarr4k_apikey
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     include:
       - template: sonarr-quality-definition-series
@@ -28,10 +30,10 @@ sonarr:
     api_key: !secret sonarranime_apikey
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     include:
       - template: sonarr-quality-definition-anime
       - config: sonarr-naming.yml
       - config: sonarranime-cfs.yml
       - config: sonarranime-qp.yml
-

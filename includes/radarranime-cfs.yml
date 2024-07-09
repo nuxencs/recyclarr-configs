@@ -107,4 +107,3 @@ custom_formats:
     quality_profiles:
       - name: Anime
         score: -10000
-

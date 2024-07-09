@@ -4,6 +4,7 @@ radarr:
     api_key: !secret radarr_apikey
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     include:
       - template: radarr-quality-definition-movie
@@ -16,6 +17,7 @@ radarr:
     api_key: !secret radarr4k_apikey
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     include:
       - template: radarr-quality-definition-movie
@@ -28,10 +30,10 @@ radarr:
     api_key: !secret radarranime_apikey
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     include:
       - template: radarr-quality-definition-movie
       - config: radarranime-naming.yml
       - config: radarranime-cfs.yml
       - config: radarranime-qp.yml
-

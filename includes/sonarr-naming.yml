@@ -3,6 +3,6 @@ media_naming:
   season: default
   episodes:
     rename: true
-    standard: default
-    daily: default
-    anime: default
+    standard: no-episode-title
+    daily: no-episode-title
+    anime: no-episode-title

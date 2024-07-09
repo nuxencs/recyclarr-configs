@@ -2,4 +2,4 @@ media_naming:
   folder: default
   movie:
     rename: true
-    standard: default
+    standard: anime
