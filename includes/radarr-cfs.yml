@@ -60,6 +60,14 @@ custom_formats:
       - name: Streaming Optimized
 
   - trash_ids:
+      # Custom Repo CFs
+      - f9589f704a01e7ff886da3d7a668fef4 # Golden Popcorn
+      - 89173f75f233d04190f327088c65ea78 # Remux Tier 01 (Custom)
+      - c2f4ff510c8c0449670e0ee0422c7188 # Not Preferred Remux
+    quality_profiles:
+      - name: Golden Popcorn
+
+  - trash_ids:
       # Audio
       - 496f355514737f7d83bf7aa4d24f8169 # TrueHD Atmos
       - 2f22d89048b01681dde8afe203bf2e95 # DTS X

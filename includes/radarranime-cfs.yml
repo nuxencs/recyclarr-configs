@@ -30,6 +30,17 @@ custom_formats:
       - c20f169ef63c5f40c2def54abaf4438e # WEB Tier 01
       - 403816d65392c79236dcb6dd591aeda4 # WEB Tier 02
       - af94e0fe497124d1f9ce732069ec8c3b # WEB Tier 03
+
+      # Custom Repo CFs
+      - cdf6e92d61f1e48af4e675943081f0e7 # Anime BD Tier 02.5 (Custom SeaDex Muxers)
+      - 69b35ee3bbfc4eb9d1faa568caf79491 # Anime BD Tier 06.5 (Custom FanSubs)
+      - 7472a349ebd59119df8f74e4e03e5b4a # Anime Web Tier 01.5 (Custom Muxers)
+      - b1507ce4a53bc3cea2e0bfcb9b6e90c9 # Anime Web Tier 03.5 (Custom Official Subs)
+      - 3efe5319739b4a273184fe3032029f2c # Anime Web Tier 06.5 (Custom FanSubs)
+      - 5e2f521a1d6b2d5a9f454eb8dffdc7bf # Anime Web Boost (SubsPlease)
+      - c2e6b7dd01ed49b7776b9d69e7bf2656 # Anime Web Boost (SubsPlus)
+      - 0b10003b679293f4234ff925a379cc53 # Anime Unwanted Groups
+      - b173a3549e6152cd8cf4bea930e9bc73 # Anime 720p
     quality_profiles:
       - name: Anime
 
