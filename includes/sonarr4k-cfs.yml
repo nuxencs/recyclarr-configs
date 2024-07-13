@@ -66,6 +66,10 @@ custom_formats:
       # Steaming Service Modifications
       - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
       - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
+
+      # Custom Repo CFs
+      - 7b0828be9af60eda1bac5569f2ebaf39 # FraMeSToR
+      - c76a4adc509e68d79f4204e79e2e5b07 # Not Preferred Remux
     quality_profiles:
       - name: Remux
 

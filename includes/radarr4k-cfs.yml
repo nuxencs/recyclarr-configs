@@ -89,6 +89,10 @@ custom_formats:
       - cc5e51a9e85a6296ceefe097a77f12f4 # BCORE
       - 16622a6911d1ab5d5b8b713d5b0036d4 # CRiT
       - 2a6039655313bf5dab1e43523b62c374 # MA
+
+      # Custom Repo CFs
+      - 89173f75f233d04190f327088c65ea78 # Remux Tier 01 (Custom)
+      - c2f4ff510c8c0449670e0ee0422c7188 # Not Preferred Remux
     quality_profiles:
       - name: Remux/IMAX
 

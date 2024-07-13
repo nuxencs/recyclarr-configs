@@ -35,6 +35,17 @@ custom_formats:
       - 4c67ff059210182b59cdd41697b8cb08 # Bilibili
       - 570b03b3145a25011bf073274a407259 # HIDIVE
       - a370d974bc7b80374de1d9ba7519760b # ABEMA
+
+      # Custom Repo CFs
+      - 593be8946f3e91595d74bf778f38724b # Anime BD Tier 02.5 (Custom SeaDex Muxers)
+      - 5e8e7dbeb0ef9ab4388250713a646a46 # Anime BD Tier 06.5 (Custom FanSubs)
+      - 4a13fab2f7c5471a9d42685a3132e242 # Anime Web Tier 01.5 (Custom Muxers)
+      - 634346512045c09df485b59803ccd631 # Anime Web Tier 03.5 (Custom Official Subs)
+      - 15eda91c2aa951efa77963fcb19e1f6b # Anime Web Tier 06.5 (Custom FanSubs)
+      - 2e975a19528603c58ced14e918afbabf # Anime Web Boost (SubsPlease)
+      - 2639db7b73b2ecbffb2ca58460738e1f # Anime Web Boost (SubsPlus)
+      - 23725ee9fc6d66a02dbf64258c71b08a # Anime Unwanted Groups
+      - 0801d4fba08a7a3d59f22854a2f532f8 # Anime 720p
     quality_profiles:
       - name: Anime
 
