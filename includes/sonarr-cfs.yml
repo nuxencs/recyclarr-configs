@@ -46,12 +46,12 @@ custom_formats:
       - c67a75ae4a1715f2bb4d492755ba4195 # PMTP
       - ae58039e1319178e6be73caab5c42166 # SHO
       - 1efe8da11bfd74fbbcd4d8117ddb9213 # STAN
-    quality_profiles:
+    assign_scores_to:
       - name: WEBDL
 
   - trash_ids:
       - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
-    quality_profiles:
+    assign_scores_to:
       - name: WEBDL
         score: 15
 
@@ -86,6 +86,6 @@ custom_formats:
       - bb019e1cd00f304f80971c965de064dc # HDR (undefined)
       - 2a7e3be05d3861d6df7171ec74cad727 # PQ
       - 17e889ce13117940092308f48b48b45b # HLG
-    quality_profiles:
+    assign_scores_to:
       - name: WEBDL
         score: 0

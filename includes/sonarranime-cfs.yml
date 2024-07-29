@@ -46,36 +46,36 @@ custom_formats:
       - 2639db7b73b2ecbffb2ca58460738e1f # Anime Web Boost (SubsPlus)
       - 23725ee9fc6d66a02dbf64258c71b08a # Anime Unwanted Groups
       - 0801d4fba08a7a3d59f22854a2f532f8 # Anime 720p
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
 
   - trash_ids:
       - 29c2a13d091144f63307e4a8ce963a39 # Anime Web Tier 05 (FanSubs)
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: 400
 
   - trash_ids:
       - dc262f88d74c651b12e9d90b39f6c753 # Anime Web Tier 06 (FanSubs)
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: 300
 
   - trash_ids:
       - c27f2ae6a4e82373b0f1da094e2489ad # Anime Web Tier 03 (Official Subs)
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: 200
 
   - trash_ids:
       - 4fd5528a3a8024e6b49f9c67053ea5f3 # Anime Web Tier 04 (Official Subs)
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: 100
 
   - trash_ids:
       - 026d5aadd1a6b4e550b134cb6c72b3ca # Uncensored
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: 10
 
@@ -113,7 +113,7 @@ custom_formats:
 
       # Misc
       - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: 0
 
@@ -123,6 +123,6 @@ custom_formats:
       - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07 (P2P/Scene)
       - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
       - c99279ee27a154c2f20d1d505cc99e25 # 720p
-    quality_profiles:
+    assign_scores_to:
       - name: Anime
         score: -10000
