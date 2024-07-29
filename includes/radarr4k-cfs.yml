@@ -93,7 +93,7 @@ custom_formats:
       # Custom Repo CFs
       - 89173f75f233d04190f327088c65ea78 # Remux Tier 01 (Custom)
       - c2f4ff510c8c0449670e0ee0422c7188 # Not Preferred Remux
-    quality_profiles:
+    assign_scores_to:
       - name: Remux/IMAX
 
   - trash_ids:
@@ -110,6 +110,6 @@ custom_formats:
       - c9fd353f8f5f1baf56dc601c4cb29920 # PCOK
       - e36a0ba1bc902b26ee40818a1d59b8bd # PMTP
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
-    quality_profiles:
+    assign_scores_to:
       - name: Remux/IMAX
         score: 0

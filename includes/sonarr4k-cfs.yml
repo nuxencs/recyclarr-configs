@@ -70,12 +70,12 @@ custom_formats:
       # Custom Repo CFs
       - 7b0828be9af60eda1bac5569f2ebaf39 # FraMeSToR
       - c76a4adc509e68d79f4204e79e2e5b07 # Not Preferred Remux
-    quality_profiles:
+    assign_scores_to:
       - name: Remux
 
   - trash_ids:
       - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
-    quality_profiles:
+    assign_scores_to:
       - name: Remux
         score: 15
 
@@ -97,6 +97,6 @@ custom_formats:
       - dbe00161b08a25ac6154c55f95e6318d # DD
       - 3e8b714263b26f486972ee1e0fe7606c # MP3
       - 28f6ef16d61e2d1adfce3156ed8257e3 # Opus
-    quality_profiles:
+    assign_scores_to:
       - name: Remux
         score: 0

@@ -49,14 +49,14 @@ custom_formats:
       - cc5e51a9e85a6296ceefe097a77f12f4 # BCORE
       - 16622a6911d1ab5d5b8b713d5b0036d4 # CRiT
       - 2a6039655313bf5dab1e43523b62c374 # MA
-    quality_profiles:
+    assign_scores_to:
       - name: Golden Popcorn
       - name: Streaming Optimized
 
   - trash_ids:
       # HQ Release Groups
       - 5153ec7413d9dae44e24275589b5e944 # BHDStudio
-    quality_profiles:
+    assign_scores_to:
       - name: Streaming Optimized
 
   - trash_ids:
@@ -64,7 +64,7 @@ custom_formats:
       - f9589f704a01e7ff886da3d7a668fef4 # Golden Popcorn
       - 89173f75f233d04190f327088c65ea78 # Remux Tier 01 (Custom)
       - c2f4ff510c8c0449670e0ee0422c7188 # Not Preferred Remux
-    quality_profiles:
+    assign_scores_to:
       - name: Golden Popcorn
 
   - trash_ids:
@@ -112,7 +112,7 @@ custom_formats:
       - c9fd353f8f5f1baf56dc601c4cb29920 # PCOK
       - e36a0ba1bc902b26ee40818a1d59b8bd # PMTP
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
-    quality_profiles:
+    assign_scores_to:
       - name: Golden Popcorn
         score: 0
       - name: Streaming Optimized
