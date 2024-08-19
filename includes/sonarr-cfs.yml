@@ -52,12 +52,12 @@ custom_formats:
       # Custom Repo CFs
       - 7b0828be9af60eda1bac5569f2ebaf39 # FraMeSToR
       - c76a4adc509e68d79f4204e79e2e5b07 # Not Preferred Remux
-    quality_profiles:
+    assign_scores_to:
       - name: WEBDL
 
   - trash_ids:
       - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
-    quality_profiles:
+    assign_scores_to:
       - name: WEBDL
         score: 15
 
@@ -92,6 +92,6 @@ custom_formats:
       - bb019e1cd00f304f80971c965de064dc # HDR (undefined)
       - 2a7e3be05d3861d6df7171ec74cad727 # PQ
       - 17e889ce13117940092308f48b48b45b # HLG
-    quality_profiles:
+    assign_scores_to:
       - name: WEBDL
         score: 0
