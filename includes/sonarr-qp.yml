@@ -9,5 +9,7 @@ quality_profiles:
     min_format_score: 10
     quality_sort: top
     qualities:
+      - name: Remux-1080p
+        enabled: false
       - name: WEBDL-1080p
       - name: WEBRip-1080p
