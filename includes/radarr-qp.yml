@@ -2,8 +2,6 @@ quality_profiles:
   - name: Golden Popcorn
     reset_unmatched_scores:
       enabled: true
-      except:
-        - Golden Popcorn
     upgrade:
       allowed: true
       until_quality: WEB/Bluray 1080p
@@ -11,6 +9,8 @@ quality_profiles:
     min_format_score: 10
     quality_sort: top
     qualities:
+      - name: Remux-1080p
+        enabled: false
       - name: WEB/Bluray 1080p
         qualities:
           - Bluray-1080p
@@ -28,6 +28,8 @@ quality_profiles:
     score_set: sqp-1-1080p
     quality_sort: top
     qualities:
+      - name: Remux-1080p
+        enabled: false
       - name: WEB/Bluray 1080p
         qualities:
           - Bluray-1080p
