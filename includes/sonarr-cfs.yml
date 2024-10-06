@@ -52,6 +52,7 @@ custom_formats:
       # Custom Repo CFs
       - 7b0828be9af60eda1bac5569f2ebaf39 # FraMeSToR
       - c76a4adc509e68d79f4204e79e2e5b07 # Not Preferred Remux
+      - 7be068488c193abe5853b83e642f2cbb # Offset German Scene
     assign_scores_to:
       - name: WEBDL
 
