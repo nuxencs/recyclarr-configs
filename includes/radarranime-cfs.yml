@@ -105,6 +105,9 @@ custom_formats:
       - 2a4d9069cc1fe3242ff9bdaebed239bb # HDR (undefined)
       - 08d6d8834ad9ec87b1dc7ec8148e7a1f # PQ
       - 9364dd386c9b4a1100dde8264690add7 # HLG
+
+      # Custom Repo CFs
+      - f9589f704a01e7ff886da3d7a668fef4 # Golden Popcorn
     assign_scores_to:
       - name: Anime
         score: 0
