@@ -113,6 +113,7 @@ custom_formats:
 
       # Misc
       - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
+      - c99279ee27a154c2f20d1d505cc99e25 # 720p
     assign_scores_to:
       - name: Anime
         score: 0
@@ -122,7 +123,6 @@ custom_formats:
       - 545a76b14ddc349b8b185a6344e28b04 # Anime BD Tier 05 (Remuxes)
       - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07 (P2P/Scene)
       - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
-      - c99279ee27a154c2f20d1d505cc99e25 # 720p
     assign_scores_to:
       - name: Anime
         score: -10000

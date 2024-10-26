@@ -105,6 +105,9 @@ custom_formats:
       - 2a4d9069cc1fe3242ff9bdaebed239bb # HDR (undefined)
       - 08d6d8834ad9ec87b1dc7ec8148e7a1f # PQ
       - 9364dd386c9b4a1100dde8264690add7 # HLG
+
+        # Misc
+      - b2be17d608fc88818940cd1833b0b24c # 720p
     assign_scores_to:
       - name: Anime
         score: 0
@@ -114,7 +117,6 @@ custom_formats:
       - ca864ed93c7b431150cc6748dc34875d # Anime BD Tier 05 (Remuxes)
       - 1ef101b3a82646b40e0cab7fc92cd896 # Anime BD Tier 07 (P2P/Scene)
       - 6115ccd6640b978234cc47f2c1f2cadc # Anime BD Tier 08 (Mini Encodes)
-      - b2be17d608fc88818940cd1833b0b24c # 720p
     assign_scores_to:
       - name: Anime
         score: -10000
