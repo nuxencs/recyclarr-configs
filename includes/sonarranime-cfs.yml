@@ -113,6 +113,7 @@ custom_formats:
 
       # Misc
       - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
+      - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
       - c99279ee27a154c2f20d1d505cc99e25 # 720p
     assign_scores_to:
       - name: Anime
