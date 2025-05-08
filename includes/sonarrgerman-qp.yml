@@ -1,0 +1,16 @@
+quality_profiles:
+  - name: WEBDL
+    reset_unmatched_scores:
+      enabled: true
+    score_set: german
+    upgrade:
+      allowed: true
+      until_quality: WEBDL-1080p
+      until_score: 35000
+    min_format_score: 0
+    quality_sort: top
+    qualities:
+      - name: Bluray-1080p Remux
+        enabled: false
+      - name: WEBDL-1080p
+      - name: WEBRip-1080p
