@@ -1,8 +1,5 @@
 radarr:
   radarr:
-    base_url: !secret radarr_url
-    api_key: !secret radarr_apikey
-
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
@@ -13,9 +10,6 @@ radarr:
       - config: radarr-qp.yml
 
   radarr4k:
-    base_url: !secret radarr4k_url
-    api_key: !secret radarr4k_apikey
-
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
@@ -26,9 +20,6 @@ radarr:
       - config: radarr4k-qp.yml
 
   radarranime:
-    base_url: !secret radarranime_url
-    api_key: !secret radarranime_apikey
-
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
