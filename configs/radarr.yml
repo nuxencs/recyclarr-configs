@@ -28,3 +28,13 @@ radarr:
       - config: radarranime-naming.yml
       - config: radarranime-cfs.yml
       - config: radarranime-qp.yml
+
+  radarrgerman:
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+
+    include:
+      - template: radarr-quality-definition-movie
+      - config: radarr-naming.yml
+      - config: radarrgerman-cfs.yml
+      - config: radarrgerman-qp.yml
