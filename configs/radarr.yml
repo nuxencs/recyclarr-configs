@@ -25,7 +25,7 @@ radarr:
 
     include:
       - template: radarr-quality-definition-movie
-      - config: radarranime-naming.yml
+      - config: radarr-naming.yml
       - config: radarranime-cfs.yml
       - config: radarranime-qp.yml
 
