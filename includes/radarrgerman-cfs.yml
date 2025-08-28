@@ -32,6 +32,7 @@ custom_formats:
       - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
       - ae43b294509409a6a13919dedd4764c4 # Repack2
       - 5caaaa1c08c1742aa4342d8c4cc463f2 # Repack3
+      - 2899d84dc9372de3408e6d8cc18e9666 # x264
 
       # Unwanted
       - ed38b889b31be83fda192888e2286d83 # BR-DISK
@@ -46,6 +47,7 @@ custom_formats:
       - c465ccc73923871b3eb1802042331306 # Line/Mic Dubbed
 
       # Optional
+      # - 839bea857ed2c0a8e084f3cbdbd65ecb # x265 (no HDR/DV)
       - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
       - ae9b7c9ebde1f3bd336a8cbd1ec4c5e5 # No-RlsGroup
       - 7357cf5161efbf8c4d5d0c30b4815ee2 # Obfuscated
@@ -79,18 +81,11 @@ custom_formats:
       - 6ba9033150e7896bdc9ec4b44f2b230f # MP3
       - a061e2e700f81932daf888599f8a8273 # Opus
 
-      # HDR Formats
-      - c53085ddbd027d9624b320627748612f # DV HDR10Plus
-      - e23edd2482476e595fb990b12e7c609c # DV HDR10
-      - 58d6a88f13e2db7f5059c41047876f00 # DV
-      - 55d53828b9d81cbe20b02efd00aa0efd # DV HLG
-      - a3e19f8f627608af0211acd02bf89735 # DV SDR
-      - b974a6cd08c1066250f1f177d7aa1225 # HDR10+
-      - dfb86d5941bc9075d6af23b09c2aeecd # HDR10
-      - e61e28db95d22bedcadf030b8f156d96 # HDR
-      - 2a4d9069cc1fe3242ff9bdaebed239bb # HDR (undefined)
-      - 08d6d8834ad9ec87b1dc7ec8148e7a1f # PQ
-      - 9364dd386c9b4a1100dde8264690add7 # HLG
+      # HDR
+      - 493b6d1dbec3c3364c59d7607f7e3405 # HDR
+      - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
+      - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
+      - f700d29429c023a5734505e77daeaea7 # DV (Disk)
 
       # Movie Versions
       - 957d0f44b592285f26449575e8b1167e # Special Edition
