@@ -5,7 +5,7 @@ custom_formats:
       - 7c3a61a9c6cb04f52f1544be6d44a026 # DV Boost
       - 0c4b99df9206d2cfac3c05ab897dd62a # HDR10+ Boost
       - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
-      - 9b27ab6498ec0f31a3353992e19434ca # DV (WEBDL)
+      - 9b27ab6498ec0f31a3353992e19434ca # DV (w/o HDR fallback)
 
       # HQ Release Groups
       - 9965a052eb87b0d10313b1cea89eb451 # Remux Tier 01
@@ -43,9 +43,11 @@ custom_formats:
 
       # Streaming Services
       - d660701077794679fd59e8bdf4ce3a29 # AMZN
+      - d9e511921c8cedc7282e291b0209cdc5 # ATV
       - f67c9ca88f463a48346062e8ad07713f # ATVP
       - 77a7b25585c18af08f60b1547bb9b4fb # CC
       - 36b72f59f4ea20aad9316f475f2d9fbb # DCU
+      - dc5f2bb0e0262155b5fedd0f6c5d2b55 # DSCP
       - 89358767a60cc28783cdc3d0be9388a4 # DSNP
       - 7a235133c87f7da4c8cccceca7e3c7a6 # HBO
       - a880d6abc21e7c16884f3ae393f84179 # HMAX
@@ -55,12 +57,14 @@ custom_formats:
       - d34870697c9db575f17700212167be23 # NF
       - 1656adc6d7bb2c8cca6acfb6592db421 # PCOK
       - c67a75ae4a1715f2bb4d492755ba4195 # PMTP
+      - da393fd4e2c0cce7c9dc2669c43e0593 # ROKU
       - ae58039e1319178e6be73caab5c42166 # SHO
       - 1efe8da11bfd74fbbcd4d8117ddb9213 # STAN
+      - 9623c5c9cac8e939c1b9aedd32f640bf # SYFY
 
       # Steaming Service Modifications
       - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
-      - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
+      - 218e93e5702f44a68ad9e3c6ba87d2f0 # HD Streaming Boost
 
       # Custom Repo CFs
       - 7b0828be9af60eda1bac5569f2ebaf39 # FraMeSToR
