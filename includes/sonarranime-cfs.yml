@@ -1,13 +1,15 @@
 custom_formats:
   - trash_ids:
       # Anime CF/Scoring
-      - 949c16fe0a8147f50ba82cc2df9411c9 # Anime BD Tier 01 (Top SeaDex Muxers)
-      - ed7f1e315e000aef424a58517fa48727 # Anime BD Tier 02 (SeaDex Muxers)
-      - 096e406c92baa713da4a72d88030b815 # Anime BD Tier 03 (SeaDex Muxers)
-      - 30feba9da3030c5ed1e0f7d610bcadc4 # Anime BD Tier 04 (SeaDex Muxers)
-      - 25d2afecab632b1582eaf03b63055f72 # Anime BD Tier 06 (FanSubs)
-      - e0014372773c8f0e1bef8824f00c7dc4 # Anime Web Tier 01 (Muxers)
-      - 19180499de5ef2b84b6ec59aae444696 # Anime Web Tier 02 (Top FanSubs)
+      - 949c16fe0a8147f50ba82cc2df9411c9 # Anime BD Tier 01
+      - ed7f1e315e000aef424a58517fa48727 # Anime BD Tier 02
+      - 096e406c92baa713da4a72d88030b815 # Anime BD Tier 03
+      - 30feba9da3030c5ed1e0f7d610bcadc4 # Anime BD Tier 04
+      - 545a76b14ddc349b8b185a6344e28b04 # Anime BD Tier 05
+      - 25d2afecab632b1582eaf03b63055f72 # Anime BD Tier 06
+      - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07
+      - e0014372773c8f0e1bef8824f00c7dc4 # Anime Web Tier 01
+      - 19180499de5ef2b84b6ec59aae444696 # Anime Web Tier 02
       - e3515e519f3b1360cbfc17651944354c # Anime LQ Groups
       - b4a1b3d705159cdca36d71e57ca86871 # Anime Raws
       - 9c14d194486c4014d422adc64092d794 # Dubs Only
@@ -37,38 +39,37 @@ custom_formats:
       - a370d974bc7b80374de1d9ba7519760b # ABEMA
 
       # Custom Repo CFs
-      - 593be8946f3e91595d74bf778f38724b # Anime BD Tier 02.5 (Custom SeaDex Muxers)
-      - 5e8e7dbeb0ef9ab4388250713a646a46 # Anime BD Tier 06.5 (Custom FanSubs)
-      - 4a13fab2f7c5471a9d42685a3132e242 # Anime Web Tier 01.5 (Custom Muxers)
-      - 634346512045c09df485b59803ccd631 # Anime Web Tier 03.5 (Custom Official Subs)
-      - 15eda91c2aa951efa77963fcb19e1f6b # Anime Web Tier 06.5 (Custom FanSubs)
+      - 593be8946f3e91595d74bf778f38724b # Anime BD Tier 02 (Additions)
+      - 5e8e7dbeb0ef9ab4388250713a646a46 # Anime BD Tier 06 (Additions)
+      - 4a13fab2f7c5471a9d42685a3132e242 # Anime Web Tier 01 (Additions)
+      - 634346512045c09df485b59803ccd631 # Anime Web Tier 03 (Additions)
+      - 15eda91c2aa951efa77963fcb19e1f6b # Anime Web Tier 06 (Additions)
       - 2e975a19528603c58ced14e918afbabf # Anime Web Boost (SubsPlease)
-      - 2639db7b73b2ecbffb2ca58460738e1f # Anime Web Boost (SubsPlus)
       - 23725ee9fc6d66a02dbf64258c71b08a # Anime Unwanted Groups
       - 0801d4fba08a7a3d59f22854a2f532f8 # Anime 720p
     assign_scores_to:
       - name: Anime
 
   - trash_ids:
-      - 29c2a13d091144f63307e4a8ce963a39 # Anime Web Tier 05 (FanSubs)
+      - dc262f88d74c651b12e9d90b39f6c753 # Anime Web Tier 06
     assign_scores_to:
       - name: Anime
         score: 400
 
   - trash_ids:
-      - dc262f88d74c651b12e9d90b39f6c753 # Anime Web Tier 06 (FanSubs)
+      - c27f2ae6a4e82373b0f1da094e2489ad # Anime Web Tier 03
     assign_scores_to:
       - name: Anime
         score: 300
 
   - trash_ids:
-      - c27f2ae6a4e82373b0f1da094e2489ad # Anime Web Tier 03 (Official Subs)
+      - 4fd5528a3a8024e6b49f9c67053ea5f3 # Anime Web Tier 04
     assign_scores_to:
       - name: Anime
         score: 200
 
   - trash_ids:
-      - 4fd5528a3a8024e6b49f9c67053ea5f3 # Anime Web Tier 04 (Official Subs)
+      - 29c2a13d091144f63307e4a8ce963a39 # Anime Web Tier 05
     assign_scores_to:
       - name: Anime
         score: 100
@@ -114,9 +115,7 @@ custom_formats:
 
   - trash_ids:
       # Unwanted
-      - 545a76b14ddc349b8b185a6344e28b04 # Anime BD Tier 05 (Remuxes)
-      - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07 (P2P/Scene)
-      - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
+      - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08
     assign_scores_to:
       - name: Anime
         score: -10000
