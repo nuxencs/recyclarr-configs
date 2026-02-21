@@ -1,7 +1,6 @@
 sonarr:
   sonarr:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: series
@@ -13,7 +12,6 @@ sonarr:
 
   sonarr4k:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: series
@@ -25,7 +23,6 @@ sonarr:
 
   sonarranime:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: anime
@@ -37,7 +34,6 @@ sonarr:
 
   sonarrgerman:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: series
