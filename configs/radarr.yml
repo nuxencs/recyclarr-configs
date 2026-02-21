@@ -3,8 +3,10 @@ radarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: movie
+
     include:
-      - template: radarr-quality-definition-movie
       - config: radarr-naming.yml
       - config: radarr-cfs.yml
       - config: radarr-qp.yml
@@ -13,8 +15,10 @@ radarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: movie
+
     include:
-      - template: radarr-quality-definition-movie
       - config: radarr-naming.yml
       - config: radarr4k-cfs.yml
       - config: radarr4k-qp.yml
@@ -23,8 +27,10 @@ radarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: movie
+
     include:
-      - template: radarr-quality-definition-movie
       - config: radarr-naming.yml
       - config: radarranime-cfs.yml
       - config: radarranime-qp.yml
@@ -33,8 +39,10 @@ radarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: movie
+
     include:
-      - template: radarr-quality-definition-movie
       - config: radarr-naming.yml
       - config: radarrgerman-cfs.yml
       - config: radarrgerman-qp.yml

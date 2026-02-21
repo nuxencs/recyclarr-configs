@@ -3,8 +3,10 @@ sonarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: series
+
     include:
-      - template: sonarr-quality-definition-series
       - config: sonarr-naming.yml
       - config: sonarr-cfs.yml
       - config: sonarr-qp.yml
@@ -13,8 +15,10 @@ sonarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: series
+
     include:
-      - template: sonarr-quality-definition-series
       - config: sonarr-naming.yml
       - config: sonarr4k-cfs.yml
       - config: sonarr4k-qp.yml
@@ -23,8 +27,10 @@ sonarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: anime
+
     include:
-      - template: sonarr-quality-definition-anime
       - config: sonarr-naming.yml
       - config: sonarranime-cfs.yml
       - config: sonarranime-qp.yml
@@ -33,8 +39,10 @@ sonarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
 
+    quality_definition:
+      type: series
+
     include:
-      - template: sonarr-quality-definition-series
       - config: sonarr-naming.yml
       - config: sonarrgerman-cfs.yml
       - config: sonarrgerman-qp.yml
