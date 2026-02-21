@@ -1,7 +1,6 @@
 radarr:
   radarr:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: movie
@@ -13,7 +12,6 @@ radarr:
 
   radarr4k:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: movie
@@ -25,7 +23,6 @@ radarr:
 
   radarranime:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: movie
@@ -37,7 +34,6 @@ radarr:
 
   radarrgerman:
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     quality_definition:
       type: movie
