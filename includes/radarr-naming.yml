@@ -1,5 +1,5 @@
 media_naming:
-  folder: default
+  folder: plex-tmdb
   movie:
     rename: true
-    standard: anime
+    standard: plex-anime-tmdb

@@ -1,8 +1,8 @@
 media_naming:
-  series: default
+  series: plex-tvdb
   season: default
   episodes:
     rename: true
-    standard: no-episode-title
-    daily: no-episode-title
-    anime: no-episode-title
+    standard: custom
+    daily: custom
+    anime: custom
