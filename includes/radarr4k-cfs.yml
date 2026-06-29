@@ -42,6 +42,7 @@ custom_formats:
       - c20f169ef63c5f40c2def54abaf4438e # WEB Tier 01
       - 403816d65392c79236dcb6dd591aeda4 # WEB Tier 02
       - af94e0fe497124d1f9ce732069ec8c3b # WEB Tier 03
+      - 94d8819f3e810c135801974795de144c # WEB Tier 03 (Additions)
 
       # Preferred Release Groups
       - ff5bc9e8ce91d46c997ca3ac6994d6f8 # FraMeSToR
