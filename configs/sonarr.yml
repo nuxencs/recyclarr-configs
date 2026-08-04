@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://schemas.recyclarr.dev/latest/config-schema.json
+
 sonarr:
   sonarr:
     delete_old_custom_formats: true
@@ -6,6 +8,7 @@ sonarr:
       type: series
 
     include:
+      - config: media-management.yml
       - config: sonarr-naming.yml
       - config: sonarr-cfs.yml
       - config: sonarr-qp.yml
@@ -17,6 +20,7 @@ sonarr:
       type: series
 
     include:
+      - config: media-management.yml
       - config: sonarr-naming.yml
       - config: sonarr4k-cfs.yml
       - config: sonarr4k-qp.yml
@@ -28,6 +32,7 @@ sonarr:
       type: anime
 
     include:
+      - config: media-management.yml
       - config: sonarr-naming.yml
       - config: sonarranime-cfs.yml
       - config: sonarranime-qp.yml
@@ -39,6 +44,7 @@ sonarr:
       type: series
 
     include:
+      - config: media-management.yml
       - config: sonarr-naming.yml
       - config: sonarrgerman-cfs.yml
       - config: sonarrgerman-qp.yml

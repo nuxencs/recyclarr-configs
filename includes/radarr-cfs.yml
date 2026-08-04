@@ -64,6 +64,8 @@ custom_formats:
       - 5153ec7413d9dae44e24275589b5e944 # BHDStudio
     assign_scores_to:
       - name: Streaming Optimized
+      - name: Golden Popcorn
+        score: -10000
 
   - trash_ids:
       # Custom Repo CFs
@@ -117,8 +119,7 @@ custom_formats:
       - e36a0ba1bc902b26ee40818a1d59b8bd # PMTP
       - 44c2b54d7c81c1a442a8b2cabeaef54f # ROKU
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
+    score: 0
     assign_scores_to:
       - name: Golden Popcorn
-        score: 0
       - name: Streaming Optimized
-        score: 0
