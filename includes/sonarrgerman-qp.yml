@@ -10,5 +10,7 @@ quality_profiles:
     min_format_score: 0
     quality_sort: top
     qualities:
+      - name: Bluray-1080p
+        enabled: false
       - name: WEBDL-1080p
       - name: WEBRip-1080p
